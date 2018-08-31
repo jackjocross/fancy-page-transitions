@@ -8,12 +8,6 @@ const IndexPage = ({ data: { bigDog, smallDog, twoDogs, oneDog } }) => (
     css={{
       maxWidth: 800,
       margin: '30px auto',
-      '@media(min-width: 700px)': {
-        display: 'grid',
-        gridTemplateColumns: 'repeat(2, 1fr)',
-        gridGap: 10,
-        gridAutoRows: 'minmax(100px, auto)',
-      },
     }}
   >
     <Card

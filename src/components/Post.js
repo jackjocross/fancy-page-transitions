@@ -9,6 +9,6 @@ export const Post = ({ title, imageSizes }) => (
       margin: '30px auto',
     }}
   >
-    <Card title={title} imageSizes={imageSizes} />
+    <Card title={title} to="/" imageSizes={imageSizes} />
   </div>
 )
