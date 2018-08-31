@@ -1,6 +1,4 @@
 import React from 'react'
-import Img from 'gatsby-image'
-import { Flipped } from 'react-flip-toolkit'
 
 import { Card } from './Card'
 
