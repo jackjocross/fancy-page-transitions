@@ -1,6 +1,6 @@
 import React from 'react'
 import { Location } from '@reach/router'
-import { Flipper } from './src/vendor/react-flip-toolkit'
+import { Flipper } from 'react-flip-toolkit'
 
 // sane style defaults
 import 'normalize.css'

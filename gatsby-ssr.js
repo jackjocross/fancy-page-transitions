@@ -1,6 +1,6 @@
 import React from 'react'
 import { Location } from '@reach/router'
-import { Flipper } from './src/vendor/react-flip-toolkit'
+import { Flipper } from 'react-flip-toolkit'
 
 // We're not flipping anything during SSR but want to create an identical DOM structure
 export const wrapRootElement = ({ element }) => (
