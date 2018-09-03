@@ -2,15 +2,7 @@ import React from 'react'
 import { Location } from '@reach/router'
 import { Flipper } from './src/vendor/react-flip-toolkit'
 
-// sane style defaults
-import 'normalize.css'
-import { css } from 'glamor'
-css.global('html', {
-  fontFamily:
-    '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif',
-  backgroundColor: '#f5f7f9',
-})
-
+// We're not flipping anything during SSR but want to create an identical DOM structure
 export const wrapRootElement = ({ element }) => (
   <React.Fragment>
     <Location>

@@ -10,6 +10,8 @@ const IndexPage = ({ data: { bigDog, smallDog, twoDogs, oneDog } }) => (
       margin: '30px auto',
     }}
   >
+    {/* <div>One</div>
+    <div>Two</div> */}
     <Card
       title="Big Dog"
       to="/big-dog"

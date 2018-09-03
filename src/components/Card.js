@@ -1,13 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
-import { Flipped as RealFlipped } from 'react-flip-toolkit'
-
-const __BROWSER__ = typeof window !== 'undefined'
-
-const Flipped = __BROWSER__
-  ? RealFlipped
-  : ({ children }) => <React.Fragment>{children}</React.Fragment>
+import { Flipped } from '../vendor/react-flip-toolkit'
 
 export class Card extends React.Component {
   state = { flipping: false }
